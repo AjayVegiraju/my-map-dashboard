@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'mapserver'
           slot-name: 'Production'
-          package: "./server"
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC23EA48476B4C4D8DE785F7D9DEDE56 }}
